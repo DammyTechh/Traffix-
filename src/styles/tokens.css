@@ -1,0 +1,75 @@
+/* ------------------------------------------------------------------
+   Traffix, design tokens
+   Navy #082744 and cream #F1EFE3 come from the badge. The red, amber
+   and green are the signal states themselves, used only as state.
+-------------------------------------------------------------------*/
+:root {
+  /* --- navy (primary) --- */
+  --navy-900: #061C31;
+  --navy-800: #082744;
+  --navy-700: #0E3759;
+  --navy-600: #154A72;
+  --navy-500: #26628F;
+  --navy-400: #4A86B0;
+  --navy-300: #8FB4CE;
+  --navy-100: #DAE6EF;
+  --navy-50:  #EEF4F8;
+
+  /* --- dark grounds: flat and desaturated, closer to instrument housing
+         than to a brand gradient --- */
+  --ground:      #1C2A33;
+  --ground-deep: #16222A;
+
+  /* --- bone (ground) --- */
+  --bone-50:  #FBFAF5;
+  --bone-100: #F4F2E9;
+  --bone-200: #EAE7DA;
+
+  /* --- signal states --- */
+  --sig-red:   #CE4036;
+  --sig-amber: #DE9A28;
+  --sig-green: #2F9655;
+  --sig-red-dim:   #4A2420;
+  --sig-amber-dim: #4A3A1C;
+  --sig-green-dim: #1C3A28;
+
+  /* --- semantic --- */
+  --ink:      #12242F;
+  --ink-soft: #35505F;
+  --ink-mute: #566F7E;
+  --paper:    #FFFFFF;
+  --line:      rgba(18, 36, 47, 0.12);
+  --line-firm: rgba(18, 36, 47, 0.22);
+
+  --on-navy:      #EFF5FA;
+  --on-navy-soft: rgba(226, 238, 247, 0.84);
+  --on-navy-mute: rgba(205, 225, 240, 0.66);
+  --line-navy:    rgba(200, 223, 240, 0.22);
+
+  /* --- type --- */
+  --font-display: 'Space Grotesk Variable', 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'IBM Plex Sans Variable', 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --fs-display: clamp(2.7rem, 6.3vw, 5.5rem);
+  --fs-h1:      clamp(2.3rem, 5vw, 4.2rem);
+  --fs-h2:      clamp(1.95rem, 3.8vw, 3rem);
+  --fs-h3:      clamp(1.4rem, 2.1vw, 1.9rem);
+  --fs-h4:      clamp(1.14rem, 1.4vw, 1.34rem);
+  --fs-lead:    clamp(1.14rem, 1.6vw, 1.5rem);
+  --fs-body:    clamp(1.04rem, 1.1vw, 1.12rem);
+  --fs-small:   clamp(0.96rem, 1.02vw, 1.04rem);
+  --fs-label:   clamp(0.72rem, 0.82vw, 0.82rem);
+
+  /* --- space --- */
+  --gutter: clamp(1.25rem, 5vw, 5.5rem);
+  --section-y: clamp(5rem, 10vw, 10rem);
+  --max: 1400px;
+
+  /* --- motion + shape --- */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --radius: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+}
