@@ -5,6 +5,7 @@ import Cycle from './components/Cycle';
 import Stack from './components/Stack';
 import Operations from './components/Operations';
 import Safety from './components/Safety';
+import Team from './components/Team';
 import Closing from './components/Closing';
 import Footer from './components/Footer';
 import useReveal from './hooks/useReveal';
@@ -23,6 +24,7 @@ export default function App() {
         <Stack />
         <Operations />
         <Safety />
+        <Team />
         <Closing />
       </main>
       <Footer />

@@ -84,3 +84,11 @@ values need updating together.
 - One safety warning, once, where it belongs.
 - Everything respects `prefers-reduced-motion`.
 - Partner logos sit on a plate and keep their own brand colours.
+
+## The team section
+
+`src/components/Team.jsx` sits just before the closing block and is set as
+an equipment data plate: the photograph left, a mono spec list right. The photograph is `src/assets/team.webp`, 1700px wide, cropped with
+`aspect-ratio` plus `object-position` so all three faces survive the crop at
+every width. No names are printed yet; add them to the component when you
+have them.
